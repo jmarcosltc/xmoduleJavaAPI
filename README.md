@@ -1,29 +1,30 @@
 # xmoduleJavaAPI
 
+IP Address: 168.138.139.218
 Operações disponíveis:
 
 -------------------------------------------------------------------
 
-GET http://168.138.143.255:8090/v1/treinamentos
+GET http://ip:8090/v1/treinamentos
 
-PUT, DELETE http://168.138.143.255:8090/v1/treinamento/{id}
+PUT, DELETE http://ip:8090/v1/treinamento/{id}
 
-POST http://168.138.143.255:8090/v1/treinamento
-
--------------------------------------------------------------------
-
-GET http://168.138.143.255:8090/v1/cursos
-
-PUT, DELETE http://168.138.143.255:8090/v1/curso/{id}
-
-POST http://168.138.143.255:8090/v1/curso
+POST http://ip:8090/v1/treinamento
 
 -------------------------------------------------------------------
 
-GET http://168.138.143.255:8090/v1/alunos
+GET http://ip:8090/v1/cursos
 
-PUT, DELETE http://168.138.143.255:8090/v1/aluno/{id}
+PUT, DELETE http://ip:8090/v1/curso/{id}
 
-POST http://168.138.143.255:8090/v1/aluno
+POST http://ip:8090/v1/curso
+
+-------------------------------------------------------------------
+
+GET http://ip:8090/v1/alunos
+
+PUT, DELETE http://ip:8090/v1/aluno/{id}
+
+POST http://ip:8090/v1/aluno
 
 -------------------------------------------------------------------
