@@ -1,10 +1,8 @@
 package com.xmodule.api.entity;
 
 import org.springframework.data.annotation.Id;
-import org.springframework.data.mongodb.core.mapping.Document;
 
-@Document(collection = "aluno")
-public class Aluno extends Pessoa {
+public abstract class Pessoa {
 
 	@Id
 	private String id;
@@ -13,17 +11,20 @@ public class Aluno extends Pessoa {
 	private String email;
 	private String telefone;
 	
-	
-	private String id_curso;
-	
-	public Aluno(String nome, String email, String telefone, String id_curso) {
-		super(nome, email, telefone, id_curso);
+	public Pessoa(String nome, String email, String telefone, String id_curso) {
+		super();
+		this.nome = nome;
+		this.email = email;
+		this.telefone = telefone;
+		this.id_curso = id_curso;
 	}
 
-	public Aluno() {
+	public Pessoa() {
 		super();
 	}
 
+	private String id_curso;
+	
 	public String getId() {
 		return id;
 	}
@@ -63,8 +64,5 @@ public class Aluno extends Pessoa {
 	public void setId_curso(String id_curso) {
 		this.id_curso = id_curso;
 	}
-
-	
-	
 	
 }
