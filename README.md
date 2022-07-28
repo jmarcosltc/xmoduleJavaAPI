@@ -6,26 +6,34 @@ Operações disponíveis:
 
 -------------------------------------------------------------------
 
-GET http://ip:8090/v1/treinamentos
+GET /v1/treinamentos
 
-PUT, DELETE http://ip:8090/v1/treinamento/{id}
+PUT, DELETE /v1/treinamento/{id}
 
-POST http://ip:8090/v1/treinamento
-
--------------------------------------------------------------------
-
-GET http://ip:8090/v1/cursos
-
-PUT, DELETE http://ip:8090/v1/curso/{id}
-
-POST http://ip:8090/v1/curso
+POST /v1/treinamento
 
 -------------------------------------------------------------------
 
-GET http://ip:8090/v1/alunos
+GET /v1/cursos
 
-PUT, DELETE http://ip:8090/v1/aluno/{id}
+PUT, DELETE /v1/curso/{id}
 
-POST http://ip:8090/v1/aluno
+POST /v1/curso
+
+-------------------------------------------------------------------
+
+GET /v1/alunos
+
+PUT, DELETE /v1/aluno/{id}
+
+POST /v1/aluno
+
+-------------------------------------------------------------------
+
+GET /v1/professores
+
+PUT, DELETE /v1/professor/{id}
+
+POST /v1/professor
 
 -------------------------------------------------------------------
