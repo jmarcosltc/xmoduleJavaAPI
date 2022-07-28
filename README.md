@@ -1,6 +1,6 @@
 # xmoduleJavaAPI
 
-IP Address: 168.138.139.218
+IP Address: 168.xxx.xxx.218 Port: 8090
 
 Operações disponíveis:
 
